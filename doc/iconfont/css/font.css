@@ -1,0 +1,49 @@
+/**
+see https://github.com/cognitom/symbols-for-sketch/blob/master/templates/fontawesome-style.css
+see https://github.com/nfroidure/gulp-iconfont
+*/
+@font-face {
+  font-family: "myfont";
+  src: url('../fonts/myfont.eot');
+  src: url('../fonts/myfont.eot?#iefix') format('eot'),
+  url('../fonts/myfont.woff') format('woff'),
+  url('../fonts/myfont.ttf') format('truetype'),
+  url('../fonts/myfont.svg#myfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon:before {
+  display: inline-block;
+  font-family: "myfont";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.icon-2x { font-size: 2em; }
+.icon-3x { font-size: 3em; }
+.icon-4x { font-size: 4em; }
+.icon-5x { font-size: 5em; }
+.icon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.icon-blog:before { content: "\EA01" }
+.icon-home:before { content: "\EA02" }
+.icon-home2:before { content: "\EA03" }
+.icon-home3:before { content: "\EA04" }
+.icon-newspaper:before { content: "\EA05" }
+.icon-office:before { content: "\EA06" }
+.icon-pen:before { content: "\EA07" }
+.icon-pencil:before { content: "\EA08" }
+.icon-pencil2:before { content: "\EA09" }
+.icon-quill:before { content: "\EA0A" }

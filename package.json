@@ -1,0 +1,29 @@
+{
+  "name": "gulp-iconfont-sample",
+  "version": "1.0.0",
+  "description": "glupを使ってicon fontを作成するsampleリポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepblue-will/gulp-iconfont-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepblue-will/gulp-iconfont-sample/issues"
+  },
+  "homepage": "https://github.com/deepblue-will/gulp-iconfont-sample#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "lodash": "^3.10.1",
+    "require-dir": "^0.3.0"
+  }
+}
